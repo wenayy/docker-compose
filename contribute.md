@@ -4,7 +4,7 @@
 - clone the repo
 -Install all dependecies (npm install)
 -Start the Db locally(postgres)
-  -docker run -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
+  - docker run -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
   - get urself a databse from neon.tech
 
 - change the .env file and update ur credentials
