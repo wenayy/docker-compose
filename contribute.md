@@ -17,12 +17,15 @@
 ## Docker installation steps
  
 - install docker in ur local computer (docker desktop)
--clone the repo 
+- clone the repo 
 - docker network create ourproject
-- docker run -network ourporject  -d  -p 5432:5432 postgres
+- docker run  --name mypostgres --network ourporject  -d  -p 5432:5432 postgres
 - in the database url put in place of localhost postgres(the name of the dockerimage)
 
--docker run -network ourporject -d -p 300:300 myproject
+- docker build -t myproject .
+
+
+- docker run --network ourporject -d -p 300:300 myproject
 
 
 
@@ -30,4 +33,8 @@
 
 
 ## docker-compose installation steps
+
+- install docker desktop
+- docker-compose 
+- Run docker-compose up
 
